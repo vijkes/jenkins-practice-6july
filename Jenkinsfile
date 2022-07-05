@@ -5,8 +5,8 @@ agent any
 stages {
 	stage ('SCM') {
 		steps	{
-			  echo "git pulling code for java app1"
 			  echo "git pulling code for java app2"
+			  git 'https://github.com/vimallinuxworld13/simple-java-maven-app.git'
 			}
 		}
 	
