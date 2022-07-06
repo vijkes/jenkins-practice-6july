@@ -18,9 +18,9 @@ stages {
 			 
 			}
 		}
-	stage ('Test') {
+	stage ('Deploy') {
 		steps	{
-			  echo "test my final webapp"
+			  sh 'java -jar target/*.jar'  
 			
 			}
 		}
