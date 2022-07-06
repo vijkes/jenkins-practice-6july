@@ -23,6 +23,10 @@ stages {
 			
 			}
 		}
-
+	stage('Deploy to Prod') {	
+		steps {
+			echo "final app for production"
+		      }
+		}
 	}
 }
