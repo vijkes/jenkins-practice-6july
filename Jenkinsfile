@@ -6,11 +6,11 @@ stages {
 	stage ('SCM') {
 		steps	{
 			  echo "git pulling code for java app2"
-			  git 'https://github.com/vimallinuxworld13/simple-java-maven-app.git'
+			  echo "git pulling code for java app23"
 			}
 		}
 	
-	
+/*	
 	stage('Build') {
 		steps {
 			sh 'mvn clean package'
@@ -28,5 +28,19 @@ stages {
 		      }
 		}
 }
+*/
+	stage ('Deploy') {
+		steps	{
+			  echo "deploying my code"
+			 
+			}
+		}
+	stage ('Test') {
+		steps	{
+			  echo "test my final webapp"
+			
+			}
+		}
+
 
 }
