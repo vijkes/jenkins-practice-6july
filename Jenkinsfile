@@ -1,6 +1,6 @@
 pipeline {
 
-agent Jenkins-slave-linux-1
+agent any
 
 stages {
 	stage ('SCM') {
