@@ -6,7 +6,7 @@ stages {
 	stage ('SCM') {
 		steps	{
 			  echo "git pulling code for java app2"
-			  echo "git pulling code for java app23"
+			  echo "git pullling code for java app23"
 			}
 		}
 	
