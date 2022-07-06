@@ -35,7 +35,7 @@ stages {
 			 
 			}
 		}
-	stage ('Test') {
+	stage ('Tesst') {
 		steps	{
 			  echo "test my final webapp"
 			
